@@ -4,10 +4,11 @@ public class CrearCuenta {
         Cuenta primeraCuenta = new Cuenta();
         primeraCuenta.saldo = 1000;
 
-        System.out.println("Saldo primera cuenta: " + primeraCuenta.saldo);
+        System.out.println("Saldo primera cuenta: $" + primeraCuenta.saldo);
 
         Cuenta segundaCuenta = new Cuenta();
         segundaCuenta.saldo = 500;
-        System.out.println("Saldo segunda cuenta: " + segundaCuenta.saldo);
+        System.out.println("Saldo segunda cuenta: $" + segundaCuenta.saldo);
+
     }
 }
