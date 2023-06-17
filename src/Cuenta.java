@@ -2,7 +2,8 @@ class Cuenta {
     double saldo;
     int agencia;
     int numero;
-    String titular;
+    Cliente titular = new Cliente();
+
 
     public void depositar(double valor) {
 
