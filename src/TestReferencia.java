@@ -5,12 +5,12 @@ public class TestReferencia {
         diego.setDocumento("3344556677");
         diego.setTelefono("2233445566");
 
-        Cuenta cuentaDiego = new Cuenta();
+        Cuenta cuentaDiego = new Cuenta(1);
         cuentaDiego.setAgencia(1);
-        cuentaDiego.titular = diego;
+        cuentaDiego.setTitular(diego);
 
-        System.out.println(cuentaDiego.titular.getDocumento());
-        System.out.println(cuentaDiego.titular);
+        System.out.println(cuentaDiego.getTitular().getDocumento());
+        System.out.println(cuentaDiego.getTitular());
         System.out.println(diego);
 
 
