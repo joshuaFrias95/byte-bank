@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4aaf837-973f-4700-b912-c10fb85feb5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestReferencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestReferencia2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PruebaAcceso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PruebaEncapsulamiento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CrearCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CrearCuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PruebaMetodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PruebaMetodos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestReferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestReferencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestReferencia2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestReferencia2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
