@@ -5,10 +5,6 @@ public class Funcionario {
     private int tipo;
 
 
-    public Funcionario() {
-    }
-
-
     public String getNombre() {
         return nombre;
     }
@@ -40,8 +36,8 @@ public class Funcionario {
     public void setTipo(int tipo) {
         this.tipo = tipo;
     }
-
     public double getBonificacion() {
-        return this.salario * 0.05;
+        System.out.println("Llamando método de Funcionario");
+        return this.salario * 0.1;
     }
 }

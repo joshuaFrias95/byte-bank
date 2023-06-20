@@ -5,12 +5,16 @@ public class Gerente extends Funcionario {
         this.clave = clave;
     }
 
+    public double getBonificacion() {
+        System.out.println("Llamando método del Gerente");
+        return super.getBonificacion() + super.getSalario();
+    }
     public boolean iniciarSesion(String clave) {
-        return clave == "AluraCursosOnline";
+        if (this.clave == clave) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
-    // Sobreescritura de método
-    public double getBonificacion() {
-        return super.getSalario() + super.getBonificacion();
-    }
 }

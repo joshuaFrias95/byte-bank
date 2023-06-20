@@ -4,7 +4,7 @@ public class TestGerente {
         //gerente.setSalario(5000d);
         //Funcionario gerente = new Funcionario();
         gerente.setSalario(6000d);
-        //gerente.setClave("AluraCursosOnline");
+        gerente.setClave("AluraCursosOnline");
         gerente.setTipo(1);
         System.out.println(gerente.iniciarSesion("AluraCursosOnline"));
         System.out.println(gerente.getBonificacion());
