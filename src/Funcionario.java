@@ -42,18 +42,6 @@ public class Funcionario {
     }
 
     public double getBonificacion() {
-
-        if (this.tipo == 0) {
-            return this.salario * 0.1;
-
-        } else if (this.tipo == 1) {
-            return this.salario;
-
-        } else {
-            return 0;
-
-        }
-
-
+        return this.salario * 0.05;
     }
 }
