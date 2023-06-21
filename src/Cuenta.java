@@ -9,8 +9,8 @@ class Cuenta {
         return Cuenta.total;
     }
 
-    public Cuenta() {}
-    public Cuenta(int agencia) {
+    //public Cuenta() {}
+    public Cuenta(int agencia, int numero) {
         if (agencia <= 0) {
             System.out.println("No se permite 0");
             this.agencia = 1;
