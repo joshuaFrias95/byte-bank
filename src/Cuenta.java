@@ -1,9 +1,10 @@
-class Cuenta {
-    private double saldo;
+public abstract class Cuenta {
+    protected double saldo;
     private int agencia;
     private int numero;
     private Cliente titular = new Cliente();
     private static int total = 0;
+
 
     public static int getTotal() {
         return Cuenta.total;
@@ -21,10 +22,7 @@ class Cuenta {
         System.out.println("Se creó la cuenta número " + total);
     }
 
-    public void depositar(double valor) {
-
-        this.saldo += valor;
-    }
+    public abstract void depositar(double valor);
 
     public boolean retirar(double valor) {
         if (this.saldo >= valor) {
