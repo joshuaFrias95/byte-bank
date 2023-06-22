@@ -1,4 +1,4 @@
-public class Gerente extends Funcionario implements Autenticar {
+public class Administrador extends Funcionario implements Autenticar {
 
     @Override
     public void setClave(String clave) {
@@ -12,7 +12,6 @@ public class Gerente extends Funcionario implements Autenticar {
 
     @Override
     public double getBonificacion() {
-        System.out.println("Llamando método del Gerente");
-        return 2000;
+        return 0;
     }
 }
