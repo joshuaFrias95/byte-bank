@@ -1,3 +1,5 @@
+package com.bytebank.modelo;
+
 public class Cliente implements Autenticar {
 
     private String nombre;

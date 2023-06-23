@@ -1,4 +1,6 @@
-public class Administrador extends Funcionario implements Autenticar {
+package com.bytebank.modelo;
+
+public class Gerente extends Funcionario implements Autenticar {
 
     @Override
     public void setClave(String clave) {
@@ -12,6 +14,7 @@ public class Administrador extends Funcionario implements Autenticar {
 
     @Override
     public double getBonificacion() {
-        return 0;
+        System.out.println("Llamando método del com.bytebank.test.modelo.Gerente");
+        return 2000;
     }
 }
