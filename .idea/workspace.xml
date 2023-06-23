@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4aaf837-973f-4700-b912-c10fb85feb5b" name="Changes" comment="" />
+    <list default="true" id="a4aaf837-973f-4700-b912-c10fb85feb5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SaldoInsuficienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestCuentaExceptionSaldo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CuentaCorriente.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -10,7 +10,8 @@ public abstract class Cuenta {
         return Cuenta.total;
     }
 
-    //public Cuenta() {}
+    public Cuenta() {}
+
     public Cuenta(int agencia, int numero) {
         if (agencia <= 0) {
             System.out.println("No se permite 0");
@@ -24,21 +25,21 @@ public abstract class Cuenta {
 
     public abstract void depositar(double valor);
 
-    public boolean retirar(double valor) {
-        if (this.saldo >= valor) {
-
-            this.saldo -= valor;
-            return true;
-        } else {
-
-            return false;
+    public void retirar(double valor) throws SaldoInsuficienteException {
+        if (this.saldo < valor) {
+            throw new SaldoInsuficienteException("Saldo Insuficiente");
         }
+        this.saldo -= valor;
     }
 
     public boolean transferir(double valor, Cuenta cuenta) {
 
         if (this.saldo >= valor) {
-
+            try {
+                this.retirar(valor);
+            } catch (SaldoInsuficienteException e) {
+                throw new RuntimeException(e);
+            }
             this.saldo -= valor;
             cuenta.saldo += valor;
             return true;
